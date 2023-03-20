@@ -12,16 +12,61 @@
 }
 
 body{
-    background-image: url(../img/fondoEspacio.jpg);
-    background-size: cover;
+    background-color: black;
 }
 
 header{
-    display: grid;
-    place-items: center;
-    margin: 1em auto;
+    display: inline-block;
+    margin: 2em 3em;
+    font-size: 2em;
 }
 
+/*  NAV  */
+
 nav{
-    
+    display: inline-block;
+    margin: 2em 5em;
+    padding: 1em;
+    font-size: 1.25em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right: 2em;
+    list-style: none;
+    transition: 0.5s;
+    display: grid;
+    place-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;    
+}
+
+nav ul li:hover{
+    transform: scale(1.5);
+}
+
+/*  MAIN  */
+
+/*  SECTION  */
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+section, div {
+    display: inline-block;
+}
+
+.mercurio {
+    width: 5vw;
+    height: 5vh;
 }
