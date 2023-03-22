@@ -67,7 +67,11 @@ nav ul li:hover{
 
 /*  MAIN  */
 
-/*  SECTION  */
+main h2 {
+    text-align: center;
+}
+
+/*  SECTION SISTEMA SOLAR */
 
 .sistemaSolar, img {
     margin: 0;
@@ -125,4 +129,20 @@ nav ul li:hover{
 .neptuno {
     width: 360px;
     height: 360px;
+}
+
+/*  SECTION PASEO POR EL UNIVERSO */
+
+.universo{
+    padding-top: 10vh;
+}
+
+.universo h2 {
+    text-align: center;
+}
+
+.universo iframe {
+    margin: 1em;
+    width: 97vw;
+    height: 100vh;
 }
