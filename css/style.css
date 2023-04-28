@@ -77,32 +77,24 @@ main h1{
     font-size: 3em;
 }
 
-/*  SECTION NOMBRE  */
-
-.nombre{
-    margin: 2em;
-    padding: 2em;
-    border: 2px solid white;
-    width: 45vw;
-}
-
-/*  SECTION DATOS   */
-
-.datos {
-    margin: 2em;
-    padding: 2em;
-    border: 2px solid white;
-    width: 45vw;
-}
-
-.datos h3{
-    text-align: center;
-    font-size: 1.5em;
-    padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
-    border-bottom: 2px solid white;
-}
-
-.datos img {
+img {
     width: 20vw;    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section article h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+section article {
+    margin: 2em;
+    padding: 2em;
+    border: 2px solid white;
+    width: 45vw;
 }
