@@ -66,10 +66,24 @@ nav ul li:hover{
 }
 
 /*  MAIN    */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 main h1{
     text-align: center;
     font-size: 3em;
+}
+
+/*  SECTION NOMBRE  */
+
+.nombre{
+    margin: 2em;
+    padding: 2em;
+    border: 2px solid white;
+    width: 45vw;
 }
 
 /*  SECTION DATOS   */
