@@ -17,7 +17,7 @@ body{
 
 header{
     display: inline-block;
-    margin: 2em 3em;
+    margin: 1em 3em;
     font-size: 2em;
 }
 
@@ -37,7 +37,7 @@ header h1{
 
 nav{
     display: inline-block;
-    margin: 2em 5em;
+    margin: 0.5em 5em;
     padding: 1em;
     font-size: 1.25em;
 }
@@ -70,7 +70,7 @@ nav ul li:hover{
 main{
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 main h1{
@@ -84,7 +84,7 @@ img {
 
 .informacion {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .informacion article h2{
