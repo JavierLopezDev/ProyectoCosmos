@@ -82,21 +82,56 @@ img {
     width: 20vw;    
 }
 
-.informacion {
-    display: flex;
-    flex-direction: column;
+/* Pagina SOL */
+
+.datos {
+    display: grid;
+    grid-template-areas: "etimologia etimologia"
+                         "art1 datosCuriosos"
+                         "art2 datosCuriosos";
+    grid-template-columns: 50% 50%;
+    margin: 2em auto;
 }
 
-.informacion article h2{
+.datos article h2{
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
 }
 
-.informacion article {
-    margin: 2em;
+.datos article h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.datos article {
+    margin: 1em 2em;
     padding: 2em;
     border: 2px solid white;
     border-radius: 2em;
     width: 45vw;
+    background-color: #272727;
+}
+
+.etimologia {
+    grid-area: etimologia;
+}
+
+.art1 {
+    grid-area: art1;
+}
+
+.datosCuriosos {
+    grid-area: datosCuriosos;
+}
+
+.art2 {
+    grid-area: art2;
+    display: flex;
+    flex-direction: row;
+}
+
+.div2 {
+    margin: 0.5em;
 }
