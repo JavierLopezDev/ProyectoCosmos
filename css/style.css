@@ -67,7 +67,7 @@ nav ul li:hover{
 
 /*  MAIN    */
 
-main h2{
+main h1{
     text-align: center;
     font-size: 3em;
 }
@@ -90,5 +90,5 @@ main h2{
 }
 
 .datos img {
-    width: 20vw;
+    width: 20vw;    
 }
