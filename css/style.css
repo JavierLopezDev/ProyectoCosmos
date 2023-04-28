@@ -66,10 +66,11 @@ nav ul li:hover{
 }
 
 /*  MAIN    */
+
 main{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 main h1{
@@ -81,20 +82,21 @@ img {
     width: 20vw;    
 }
 
-section {
+.informacion {
     display: flex;
     flex-direction: row;
 }
 
-section article h2{
+.informacion article h2{
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
 }
 
-section article {
+.informacion article {
     margin: 2em;
     padding: 2em;
     border: 2px solid white;
+    border-radius: 2em;
     width: 45vw;
 }
