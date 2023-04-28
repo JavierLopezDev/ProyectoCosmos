@@ -22,6 +22,10 @@ main h2 {
     transform: scale(1.1);
 }
 
+.sistemaSolar {
+    width: 98vw;
+}
+
 /*  Definir tamaño de los planetas  */
 
 .mercurio {
