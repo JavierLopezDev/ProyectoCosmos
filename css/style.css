@@ -104,47 +104,28 @@ img {
     margin-bottom: 1em;
 }
 
-/* .datos article {
+.parametrosArticle {
     margin: 1em 2em;
-    padding: 1.5em;
+    padding: 2em;
     border: 2px solid white;
     border-radius: 2em;
     width: 30vw;
     background-color: #272727;
     text-align: justify;
-} */
+}
 
 .etimologia {
     grid-area: etimologia;
-    width: 64vw;
-    margin: 1em 2em;
-    padding: 1.5em;
-    border: 2px solid white;
-    border-radius: 2em;
-    background-color: #272727;
+    width: 63.5vw;
     text-align: center;
 }
 
 .art1 {
     grid-area: art1;
-    margin: 1em 2em;
-    padding: 1.5em;
-    border: 2px solid white;
-    border-radius: 2em;
-    width: 30vw;
-    background-color: #272727;
-    text-align: justify;
 }
 
 .datosCuriosos {
     grid-area: datosCuriosos;
-    margin: 1em 2em;
-    padding: 1.5em;
-    border: 2px solid white;
-    border-radius: 2em;
-    width: 30vw;
-    background-color: #272727;
-    text-align: justify;
 }
 
 .art2 {
@@ -152,12 +133,6 @@ img {
     display: flex;
     flex-direction: row;
     margin: 1em 2em;
-    padding: 1.5em;
-    border: 2px solid white;
-    border-radius: 2em;
-    width: 30vw;
-    background-color: #272727;
-    text-align: justify;
 }
 
 .div2 {
