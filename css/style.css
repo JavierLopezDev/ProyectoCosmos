@@ -89,7 +89,6 @@ img {
     grid-template-areas: "etimologia etimologia"
                          "art1 datosCuriosos"
                          "art2 datosCuriosos";
-    margin: 2em auto;
 }
 
 .datos article h2{
@@ -116,7 +115,7 @@ img {
 
 .etimologia {
     grid-area: etimologia;
-    width: 63.5vw;
+    width: 53.5vw;
     text-align: center;
 }
 
@@ -126,6 +125,7 @@ img {
 
 .datosCuriosos {
     grid-area: datosCuriosos;
+    width: 20vw;
 }
 
 .art2 {
