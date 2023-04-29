@@ -89,7 +89,6 @@ img {
     grid-template-areas: "etimologia etimologia"
                          "art1 datosCuriosos"
                          "art2 datosCuriosos";
-    grid-template-columns: 50% 50%;
     margin: 2em auto;
 }
 
@@ -105,33 +104,65 @@ img {
     margin-bottom: 1em;
 }
 
-.datos article {
+/* .datos article {
     margin: 1em 2em;
-    padding: 2em;
+    padding: 1.5em;
     border: 2px solid white;
     border-radius: 2em;
-    width: 45vw;
+    width: 30vw;
     background-color: #272727;
-}
+    text-align: justify;
+} */
 
 .etimologia {
     grid-area: etimologia;
+    width: 64vw;
+    margin: 1em 2em;
+    padding: 1.5em;
+    border: 2px solid white;
+    border-radius: 2em;
+    background-color: #272727;
+    text-align: center;
 }
 
 .art1 {
     grid-area: art1;
+    margin: 1em 2em;
+    padding: 1.5em;
+    border: 2px solid white;
+    border-radius: 2em;
+    width: 30vw;
+    background-color: #272727;
+    text-align: justify;
 }
 
 .datosCuriosos {
     grid-area: datosCuriosos;
+    margin: 1em 2em;
+    padding: 1.5em;
+    border: 2px solid white;
+    border-radius: 2em;
+    width: 30vw;
+    background-color: #272727;
+    text-align: justify;
 }
 
 .art2 {
     grid-area: art2;
     display: flex;
     flex-direction: row;
+    margin: 1em 2em;
+    padding: 1.5em;
+    border: 2px solid white;
+    border-radius: 2em;
+    width: 30vw;
+    background-color: #272727;
+    text-align: justify;
 }
 
 .div2 {
-    margin: 0.5em;
+    margin: 0 1.5em;
+}
+.div1 {
+    text-align: center;
 }
