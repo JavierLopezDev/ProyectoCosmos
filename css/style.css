@@ -220,7 +220,7 @@ img {
     }
 
     .h2Index {
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
 
     .sistemaSolar {
@@ -228,7 +228,8 @@ img {
     }
 
     .sistemaSolar a {
-        margin-bottom: 1em;
+        margin: 3vh auto;
+        transform: scale(1.5);
     }
 
     .planeta {
