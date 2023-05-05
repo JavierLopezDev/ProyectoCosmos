@@ -219,6 +219,10 @@ img {
         padding: .3em;
     }
 
+    img {
+        width: 45vw;
+    }
+
     .etimologia {
         width: 75vw;
     }
