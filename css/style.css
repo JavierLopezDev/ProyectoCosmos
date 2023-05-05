@@ -197,7 +197,7 @@ img {
     }
 }
 
-@media (min-width: 400px) and (max-width: 1139px) {
+@media (min-width: 20px) and (max-width: 1139px) {
 
     header {
         margin-bottom: 0;
@@ -247,7 +247,7 @@ img {
 
     .art2 div {
         text-align: center;
-        width: 15vw;
+        margin-bottom: 1em;
     }
 
     .div2 {
@@ -259,6 +259,6 @@ img {
     }
 
     .mediaQuerySol {
-        margin-left: 4em;
+        margin-left: 0;
     }
 }
