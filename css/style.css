@@ -236,16 +236,25 @@ img {
 
 @media (min-width: 400px) and (max-width: 1139px) {
 
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1.5em 0;
+        padding: 0;
+    }
+
     body {
         margin: 0;
         padding: 0;
     }
 
     .hamburger {
-        display: block;
+        position: relative;
         float: right;
         background-color: transparent;
-        left: 0;
+        right: 0;
         top: 0;
         height: 30px;
         width: 30px;
@@ -351,5 +360,45 @@ img {
     .menuppal ul li a:hover {
         text-decoration: none;
         color: #333;
+    }
+
+    .etimologia {
+        width: 50vw;
+    }
+
+    .datos {
+        grid-template-areas: "etimologia etimologia"
+            "art1 art1"
+            "art2 art2"
+            "datosCuriosos datosCuriosos";
+    }
+
+    .art1 {
+        width: 50vw;
+    }
+
+    .datosCuriosos {
+        width: 50vw;
+        padding: 2em;
+    }
+
+    .art2 {
+        width: 50vw;
+    }
+
+    .art2 div {
+        width: 15vw;
+    }
+
+    .div2 {
+        text-align: center;
+    }
+
+    .div3 {
+        text-align: center;
+    }
+
+    .mediaQuerySol {
+        margin-left: 4em;
     }
 }
