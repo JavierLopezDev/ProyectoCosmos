@@ -16,8 +16,12 @@ body {
 }
 
 header {
-    display: inline-block;
-    margin: 1em 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5em 0;
+    padding: 0;
     font-size: 2em;
 }
 
@@ -33,16 +37,15 @@ header h1 {
     transition: 0.5s;
 }
 
-.hamburger {
-    display: none;
-}
-
 /*  NAV  */
 
 nav {
-    display: inline-block;
-    margin: 0.5em 3em;
-    padding: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 1em;
+    padding: 0;
     font-size: 1.25em;
 }
 
@@ -152,46 +155,7 @@ img {
     text-align: center;
 }
 
-@media (min-width: 1550px) and (max-width: 1688px) {
-
-    header {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1.5em 0;
-        padding: 0;
-    }
-
-    nav {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 2em 1em;
-        padding: 0;
-    }
-}
-
 @media (min-width: 1140px) and (max-width: 1550px) {
-
-    header {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1.5em 0;
-        padding: 0;
-    }
-
-    nav {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 2em 1em;
-        padding: 0;
-    }
 
     .etimologia {
         width: 50vw;
@@ -236,30 +200,14 @@ img {
 
 @media (min-width: 400px) and (max-width: 1139px) {
 
-    header {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1.5em 0;
-        padding: 0;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
     .hamburger {
-        position: relative;
-        float: right;
-        background-color: transparent;
+        position: fixed;
         right: 0;
         top: 0;
+        margin: 2em;
         height: 30px;
         width: 30px;
         padding: 20px 20px;
-        margin: 2em;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
@@ -277,7 +225,7 @@ img {
     }
 
     ._layer {
-        background: #fff;
+        background: #333333;
         margin-bottom: 4px;
         border-radius: 2px;
         width: 28px;
@@ -322,13 +270,11 @@ img {
     }
 
     .menuppal {
-        background-color: rgba(255, 255, 255, 0.95);
         bottom: 0;
-        height: 100%;
         left: 0;
+        height: 100%;
         overflow-y: scroll;
         position: fixed;
-        top: 0;
         transform: translate3d(0px, -100%, 0px);
         transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
         width: 100%;
@@ -344,10 +290,10 @@ img {
         list-style: none;
         text-align: center;
         font-family: Verdadna, Arial, Helvetica;
+        color: #fff;
         font-size: 1.5rem;
         line-height: 3em;
         height: 3em;
-        color: #369;
         text-transform: none;
         font-weight: bold;
     }
@@ -359,7 +305,7 @@ img {
 
     .menuppal ul li a:hover {
         text-decoration: none;
-        color: #333;
+        color: #ddd;
     }
 
     .etimologia {
