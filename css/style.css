@@ -197,7 +197,7 @@ img {
     }
 }
 
-@media (min-width: 20px) and (max-width: 1139px) {
+@media (min-width: 10px) and (max-width: 1139px) {
 
     header {
         margin-bottom: 0;
@@ -220,7 +220,7 @@ img {
     }
 
     .etimologia {
-        width: 50vw;
+        width: 75vw;
     }
 
     .datos {
@@ -231,16 +231,16 @@ img {
     }
 
     .art1 {
-        width: 50vw;
+        width: 75vw;
     }
 
     .datosCuriosos {
-        width: 50vw;
+        width: 75vw;
         padding: 2em;
     }
 
     .art2 {
-        width: 50vw;
+        width: 75vw;
         display: flex;
         flex-direction: column;
     }
