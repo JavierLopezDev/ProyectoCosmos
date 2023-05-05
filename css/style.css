@@ -219,6 +219,18 @@ img {
         padding: .3em;
     }
 
+    .h2Index {
+        margin-bottom: 1em;
+    }
+
+    .sistemaSolar {
+        flex-direction: column;
+    }
+
+    .sistemaSolar a {
+        margin-bottom: 1em;
+    }
+
     .planeta {
         width: 45vw;
     }
