@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,48 +10,68 @@
     <link rel="stylesheet" href="./css/index.css">
     <title>Cosmos - Inicio</title>
 </head>
+<script src="./menu.js"></script>
 <body>
     <header>
-        <a href="index.html"><h1>COSMOS</h1></a>
+        <a href="index.html">
+            <h1>COSMOS</h1>
+        </a>
     </header>
-        <nav>
-            <ul>
-                <li><a href="./html/01-sol.html">SOL</a></li>
-                <li><a href="./html/02-mercurio.html">MERCURIO</a></li>
-                <li><a href="./html/03-venus.html">VENUS</a></li>
-                <li><a href="./html/04-tierra.html">TIERRA</a></li>
-                <li><a href="./html/05-marte.html">MARTE</a></li>
-                <li><a href="./html/06-jupiter.html">JUPITER</a></li>
-                <li><a href="./html/07-saturno.html">SATURNO</a></li>
-                <li><a href="./html/08-urano.html">URANO</a></li>
-                <li><a href="./html/09-neptuno.html">NEPTUNO</a></li>
-                <li><a href="./html/quiz.html">QUIZ</a></li>
-            </ul>
-        </nav>
+    <div class="hamburger">
+        <div class="_layer -top"></div>
+        <div class="_layer -mid"></div>
+        <div class="_layer -bottom"></div>
+    </div>
+    <nav class="menuppal">
+        <ul>
+            <li><a href="./html/01-sol.html">SOL</a></li>
+            <li><a href="./html/02-mercurio.html">MERCURIO</a></li>
+            <li><a href="./html/03-venus.html">VENUS</a></li>
+            <li><a href="./html/04-tierra.html">TIERRA</a></li>
+            <li><a href="./html/05-marte.html">MARTE</a></li>
+            <li><a href="./html/06-jupiter.html">JUPITER</a></li>
+            <li><a href="./html/07-saturno.html">SATURNO</a></li>
+            <li><a href="./html/08-urano.html">URANO</a></li>
+            <li><a href="./html/09-neptuno.html">NEPTUNO</a></li>
+            <li><a href="./html/quiz.html">QUIZ</a></li>
+        </ul>
+    </nav>
     <main>
         <h2>"SISTEMA SOLAR"</h2>
-        <section class="sistemaSolar">            
+        <section class="sistemaSolar">
             <a href="./html/01-sol.html">
                 <picture>
-                    <source media="(min-width: 100px) and (max-width: 1140px)" srcset="./img/ilustracion-planetas/01-sol.png">
-                    <source media="(min-width: 1141px) and (max-width: 2048px)" srcset="./img/ilustracion-planetas/01-sol-editado.png">
+                    <source media="(min-width: 100px) and (max-width: 1140px)"
+                        srcset="./img/ilustracion-planetas/01-sol.png">
+                    <source media="(min-width: 1141px) and (max-width: 2048px)"
+                        srcset="./img/ilustracion-planetas/01-sol-editado.png">
                     <img src="./img/ilustracion-planetas/01-sol-editado.png" alt="SOL">
                 </picture>
             </a>
-            <a href="./html/02-mercurio.html"><img class="mercurio" src="./img/ilustracion-planetas/02-mercurio.png" alt="MERCURIO"></a>
-            <a href="./html/03-venus.html"><img class="venus" src="./img/ilustracion-planetas/03-venus.png" alt="VENUS"></a>
-            <a href="./html/04-tierra.html"><img class="tierra" src="./img/ilustracion-planetas/04-tierra.png" alt="TIERRA"></a>
-            <a href="./html/05-marte.html"><img class="marte" src="./img/ilustracion-planetas/05-marte.png" alt="MARTE"></a>
-            <a href="./html/06-jupiter.html"><img class="jupiter" src="./img/ilustracion-planetas/06-jupiter.png" alt="JUPITER"></a>
-            <a href="./html/07-saturno.html"><img class="saturno" src="./img/ilustracion-planetas/07-saturno.png" alt="SATURNO"></a>
-            <a href="./html/08-urano.html"><img class="urano" src="./img/ilustracion-planetas/08-urano.png" alt="URANO"></a>
-            <a href="./html/09-neptuno.html"><img class="neptuno" src="./img/ilustracion-planetas/09-neptuno.png" alt="NEPTUNO"></a>
+            <a href="./html/02-mercurio.html"><img class="mercurio" src="./img/ilustracion-planetas/02-mercurio.png"
+                    alt="MERCURIO"></a>
+            <a href="./html/03-venus.html"><img class="venus" src="./img/ilustracion-planetas/03-venus.png"
+                    alt="VENUS"></a>
+            <a href="./html/04-tierra.html"><img class="tierra" src="./img/ilustracion-planetas/04-tierra.png"
+                    alt="TIERRA"></a>
+            <a href="./html/05-marte.html"><img class="marte" src="./img/ilustracion-planetas/05-marte.png"
+                    alt="MARTE"></a>
+            <a href="./html/06-jupiter.html"><img class="jupiter" src="./img/ilustracion-planetas/06-jupiter.png"
+                    alt="JUPITER"></a>
+            <a href="./html/07-saturno.html"><img class="saturno" src="./img/ilustracion-planetas/07-saturno.png"
+                    alt="SATURNO"></a>
+            <a href="./html/08-urano.html"><img class="urano" src="./img/ilustracion-planetas/08-urano.png"
+                    alt="URANO"></a>
+            <a href="./html/09-neptuno.html"><img class="neptuno" src="./img/ilustracion-planetas/09-neptuno.png"
+                    alt="NEPTUNO"></a>
         </section>
-        
+
         <section class="universo">
             <h2>"PASEO POR EL UNIVERSO"</h2>
             <iframe src="https://eyes.nasa.gov/apps/solar-system/#home" importance="high" />
         </section>
     </main>
 </body>
+
+
 </html>
