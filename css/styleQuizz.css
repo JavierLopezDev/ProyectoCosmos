@@ -3,31 +3,28 @@ html, body {
     margin: 0;
 }
 
-body {
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 #quiz {
-    background: #e3f6f5;
-    width: 30rem;
+    margin: 2em auto;
+    background: #272727;
+    width: 35vw;
     padding: 4rem;
     text-align: center;
+    border: 2px solid white;
+    border-radius: 3em;
 }
 
 h1 {
-    color: #57636e;
     font-size: 3rem;
     text-align: center;
-    padding: 2px 0;
+}
+
+hr {
+    margin: 2em auto;
 }
 
 #question {
+    margin: 1em auto;
     font-size: 1.7rem;
-    color: #5a6772;
 }
 
 .button {

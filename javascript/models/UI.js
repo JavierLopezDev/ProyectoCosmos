@@ -21,8 +21,8 @@ export class UI {
 
     showScores(score) {
         const quizEndHTML = `
-            <h1>Result</h1>
-            <h2>Your Score: ${score}</h2>
+            <h1>Resultado</h1>
+            <h2>Tu puntuación: ${score}</h2>
         `
         const element = document.getElementById('quiz');
         element.innerHTML = quizEndHTML;
@@ -30,6 +30,6 @@ export class UI {
 
     showProgress(currentIndex, total) {
         const element = document.getElementById('progress');
-        element.innerHTML = `Question ${currentIndex} of ${total}`;
+        element.innerHTML = `Pregunta ${currentIndex} de ${total}`;
     }
 }
