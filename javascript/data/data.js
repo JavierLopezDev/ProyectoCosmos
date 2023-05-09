@@ -18,11 +18,11 @@ export const data = [{
         choices: ['Venus', 'Marte', 'Júpiter'],
         answer: 'Júpiter',
     },
-    {
+/*     {
         question: '¿Qué planeta es conocido como el "Planeta Rojo"?',
         choices: ['Venus', 'Marte', 'Saturno'],
         answer: 'Marte',
-    },
+    }, */
     {
         question: '¿Qué planeta es conocido como el "Planeta de los Anillos"?',
         choices: ['Júpiter', 'Saturno', 'Urano'],
