@@ -13,6 +13,13 @@ html, body {
     border-radius: 3em;
 }
 
+main div footer {
+    background: #272727;
+    margin-top: 2em;
+    padding: 1em;
+    display: block;
+}
+
 h1 {
     font-size: 3rem;
     text-align: center;

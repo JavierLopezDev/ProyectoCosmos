@@ -154,6 +154,31 @@ img {
     text-align: center;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: #0f0f0f;
+    margin-top: 5em;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer div a img{
+    width: 45px; 
+    height: auto;
+}
+
+footer div a {
+    text-decoration: none;
+}
+
+footer div h1,
+footer div p {
+    padding: .4em;
+}
+
 @media (min-width: 1140px) and (max-width: 1550px) {
 
     .etimologia {
@@ -204,7 +229,7 @@ img {
         padding-bottom: 0;
     }
 
-    nav ul{
+    nav ul {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -214,7 +239,7 @@ img {
         font-size: 1.25em;
     }
 
-    nav ul li{
+    nav ul li {
         margin-left: 2em;
         padding: .3em;
     }
@@ -277,5 +302,30 @@ img {
 
     .mediaQuerySol {
         margin-left: 0;
+    }
+
+    footer div iframe {
+        width: 200px;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 1139px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: auto 1em;
+    }
+
+    footer div {
+        margin-top: .7em;
+    }
+
+    footer div h1{
+        text-align: center;
+    }
+
+    footer div iframe{
+        padding-top: .7em;
     }
 }
