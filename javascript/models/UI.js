@@ -20,9 +20,11 @@ export class UI {
     }
 
     showScores(score) {
+        let puntacionSobre10 = (score*10) / 14;
+
         const quizEndHTML = `
             <h1>Resultado</h1>
-            <h2>Tu puntuación: ${score}</h2>
+            <h2>Tu puntuación: ${puntacionSobre10}</h2>
         `
         const element = document.getElementById('quiz');
         element.innerHTML = quizEndHTML;
