@@ -177,11 +177,17 @@ footer div a img{
 
 footer div a {
     text-decoration: none;
+    display: inline-block;
 }
 
-footer div h1,
+footer div h2,
 footer div p {
     padding: .4em;
+    line-height: 1.6em;
+}
+
+footer h2{
+    text-align: center;
 }
 
 @media (min-width: 1140px) and (max-width: 1550px) {
