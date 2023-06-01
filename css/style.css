@@ -1,6 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: "Roboto";
     src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+} */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.woff2);
 }
 
 * {
